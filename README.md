@@ -11,7 +11,7 @@ Require the package via composer:
 
         "require": {
             ...
-            "seiffert/console-extra-bundle": "*",
+            "seiffert/console-extra-bundle": "1.0.0",
             ...
         }
 
