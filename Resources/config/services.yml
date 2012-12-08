@@ -1,0 +1,6 @@
+parameters:
+    seiffert_console_extra.command_registry.class: Seiffert\ConsoleExtraBundle\CommandRegistry
+
+services:
+    seiffert_console_extra.command_registry:
+        class: %seiffert_console_extra.command_registry.class%

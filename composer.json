@@ -1,0 +1,12 @@
+{
+    "name": "seiffert/console-extra-bundle",
+    "description": "This bundle adds support for commands defined as DI services",
+    "autoload": {
+        "psr-0": { "Seiffert\\ConsoleExtraBundle": "" }
+    },
+    "target-dir": "Seiffert/ConsoleExtraBundle",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.1"
+    }
+}
