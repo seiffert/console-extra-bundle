@@ -45,17 +45,17 @@ class SeiffertConsoleExtraBundleTest extends PHPUnit_Framework_TestCase
         $bundle->setContainer($container);
 
         $container->expects($this->once())
-                  ->method('get')
-                  ->with('seiffert_console_extra.command_registry')
-                  ->will($this->returnValue($registry));
+            ->method('get')
+            ->with('seiffert_console_extra.command_registry')
+            ->will($this->returnValue($registry));
 
         $registry->expects($this->once())
-                 ->method('getCommands')
-                 ->will($this->returnValue($commands));
+            ->method('getCommands')
+            ->will($this->returnValue($commands));
 
         $application->expects($this->once())
-                    ->method('addCommands')
-                    ->with($commands);
+            ->method('addCommands')
+            ->with($commands);
 
         $bundle->registerCommands($application);
     }
@@ -65,8 +65,8 @@ class SeiffertConsoleExtraBundleTest extends PHPUnit_Framework_TestCase
         $container = $this->getMockContainerBuilder();
 
         $container->expects($this->once())
-                  ->method('addCompilerPass')
-                  ->with(
+            ->method('addCompilerPass')
+            ->with(
                 $this->isInstanceOf(
                     'Seiffert\ConsoleExtraBundle\DependencyInjection\CompilerPass\CommandCompilerPass'));
 
