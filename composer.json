@@ -2,6 +2,7 @@
     "name": "seiffert/console-extra-bundle",
     "description": "This bundle adds support for commands defined as DI services",
     "version": "1.0.0",
+    "license": "CC-BY-SA-3.0",
     "autoload": {
         "psr-0": { "Seiffert\\ConsoleExtraBundle": "" }
     },
