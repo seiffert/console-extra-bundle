@@ -3,6 +3,8 @@ SeiffertConsoleExtraBundle
 
 This bundle adds support for commands defined as DI services.
 
+[![Build Status](https://travis-ci.org/seiffert/console-extra-bundle.png?branch=master)](https://travis-ci.org/seiffert/console-extra-bundle)
+
 ## Setup
 
 Require the package via composer:
