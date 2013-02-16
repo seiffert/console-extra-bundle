@@ -3,6 +3,8 @@ SeiffertConsoleExtraBundle
 
 This bundle adds support for commands defined as DI services.
 
+[![Dependencies](http://dependency.me/repository/image/seiffert/console-extra-bundle/master)](http://dependency.me/repository/branche/seiffert/console-extra-bundle/master)
+
 ## Setup
 
 Require the package via composer:
