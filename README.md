@@ -31,7 +31,7 @@ Activate the bundle in your AppKernel:
             ...
         }
 
-Disable automatic command registration in your bundle by overriding `Bundle::registerCommands()` with an empty
+Disable automatic command registration in each of your bundles defining commands by overriding `Bundle::registerCommands()` with an empty
 implementation:
 
 `src\You\YourBundle\YouYourBundle.php`:
